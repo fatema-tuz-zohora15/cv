@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer CV</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        .cv-header {
+            background-color:rgb(121, 147, 154);
+            color: #fff;
+            padding: 10px ;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            border-bottom: 3px solid rgb(48, 48, 60);
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-info h1 {
+            font-size: 2.7rem;
+            margin: 0;
+        }
+
+        .profile-info p {
+            font-size: 1.1rem;
+            margin: 5px 0;
+            color: black;
+           
+        }
+
+        /* Profile Image */
+        .profile-pic {
+            width: 220px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-right: 5px;
+            margin-top: 2rem;
+        }
+
+        /* Section Styling */
+        .section-title {
+            font-size: 1.75rem;
+            color: #0a58ca;
+            font-weight: bold;
+            margin: 20px 0;
+            border-bottom: 2px solid rgb(48, 48, 60);
+            padding-bottom: 5px;
+        }
+
+        .container {
+            background-color: rgb(212, 221, 225);
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        /* Skills Badges */
+        .skill-badge {
+            background-color: #e3f2fd;
+            color: #0a58ca;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 50px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #b8d2ea;
+            color: #6c757d;
+            padding: 15px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CV Header with Profile Picture -->
+    <header class="cv-header">
+        <!-- Profile Image -->
+        <div>
+            <img src="image/ai-generated-professional-portrait-of-a-competent-woman-free-photo (1).jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        
+        <!-- Profile Information -->
+        <div class="profile-info">
+            <h1 style="color: black;">Fatema Tuz Zohoora</h1>
+            <p>Web Developer | HTML, CSS, Bootstrap, Tailwind CSS</p>
+            <p>Email:ffatematuzzohora15@gmail.com | Phone:01776747468 | Location: Gopalgong, Bangladesh</p>
+        </div>
+    </header>
+
+    <!-- Profile Summary -->
+    <section class="container">
+        <h2 class="section-title">Profile Summary</h2>
+        <p>
+            Dedicated web developer skilled in HTML, CSS, Bootstrap, and Tailwind CSS, with a strong background in creating user-centered, responsive designs. I can turn any design into codes(html,css,bootstrap,tailwind)  .
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="d-flex flex-wrap">
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">Bootstrap</span>
+            <span class="skill-badge">Tailwind CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Responsive Design</span>
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">Problem-Solving</span>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="container">
+        <h2 class="section-title">Work Experience</h2>
+
+        <!-- Job 1 -->
+        <div class="experience-item">
+            <h4>Web Developer - At-[Upwork,Fiver,freelancer.com]</h4>
+            <p class="text-muted">December 2024 - Present | [Gopalgong, Bangladesh]</p>
+            <ul>
+                <li>Developed responsive websites with HTML, CSS, and Tailwind CSS, achieving a 30% increase in mobile engagement.</li>
+                <li>make any web page responsive for all device.</li>
+            </ul>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="experience-item">
+            <h4>Front-End Developer - [Upwork,Fiver,freelancer.com]</h4>
+            <p class="text-muted"> june 2024-December 2024  | [Gopalgong,Bangladesh]</p>
+            <ul>
+                <li>Built so many, responsive websites with HTML, CSS, and Bootstrap, reducing development time by 20%.</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="container">
+        <h2 class="section-title">Education</h2>
+        <div>
+            <h4>student of civil Enginnering</h4>
+            <p class="text-muted"> [Gopalgong,Bangladesh] |</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container">
+        <h2 class="section-title">Notable Projects</h2>
+        <div class="project-item">
+            <h4>Responsive Portfolio Website</h4>
+            <p>Developed a personal portfolio website showcasing interactive projects with Bootstrap and Tailwind CSS.</p>
+            <p>convert any design into codes</p>
+        </div>
+        <div class="project-item">
+            <h4>E-commerce Landing Page</h4>
+            <p>Created a responsive landing page using HTML, CSS, and JavaScript for a retail store, enhancing lead conversion rates.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fatema Tuz Zohoora | Connect with me on 
+            <a class="nav-link" href="linkedin.com/in/fatema-tuz-zohora-2b0831335">LinkedIn</a> or <a class="nav-link" href="ffatematuzzohora15@gmail.com">mail</a>
+             
+           
+
+</body>
+</html>
